@@ -1,0 +1,89 @@
+
+
+
+.header {
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      background:rgb(0, 0, 0);
+      padding: 10px;
+      border: 2px solid black;
+      color:white;
+      font-size: xx-large;
+    }
+.header.logo {
+      font-size: 10px;
+      font-weight: bold;
+     
+    }
+  .head{
+   text-align: center;
+  }
+
+.login-bn{
+    text-align:right;
+
+}
+nav{
+
+    color:black;
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    height:90px;
+    border:2px solid black;
+    justify-content: space-evenly;
+    font-size: large;
+}
+
+li:hover{
+    color:black;
+}
+
+button{
+    background-color: rgb(240, 242, 244);
+    font-size: 30px;
+    border-radius: 10px;
+    width: 1000px;
+    background-color: rgb(150, 156, 162);
+}
+
+.image-container {
+
+  position: relative;
+  background-image: url("../assets/blue-futuristic-networking-technology_53876-97395.avif"); 
+  background-size: cover;
+  background-position: center;
+  height: 1200px; 
+  color: white;
+   border: 2px solid black;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%; 
+  left: 50%;  
+  font-size:100px;  
+  transform: translate(-50%, -50%);
+}
+footer{
+  background-color: rgb(127, 153, 233);
+  color:azure;
+  text-align: center;
+   border: 2px solid black;
+
+}
+.foot{
+  text-align: center;
+  list-style-type: none;
+  margin: auto;
+  font-size: xx-large;
+}
+a {
+
+  text-decoration: none;
+  color: whitesmoke;
+}
