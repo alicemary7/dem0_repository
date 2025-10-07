@@ -27,7 +27,7 @@
 nav{
 
     color:black;
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(255, 155, 155); /* COLOR */
     text-align: center;
     display: flex;
     flex-direction: row;
